@@ -1,0 +1,19 @@
+exports[`<Modal /> should render 1`] = `
+<div
+  className="modal-wrapper">
+  <div
+    className="modal-content" />
+</div>
+`;
+
+exports[`<Modal /> should render children 1`] = `
+<div
+  className="modal-wrapper">
+  <div
+    className="modal-content">
+    <h1>
+      children
+    </h1>
+  </div>
+</div>
+`;

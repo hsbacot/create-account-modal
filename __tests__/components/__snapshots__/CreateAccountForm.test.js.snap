@@ -1,0 +1,78 @@
+exports[`<CreateAccountForm /> should render 1`] = `
+<form
+  onSubmit={[Function]}>
+  <div
+    className="form-section">
+    <label>
+      Email Address
+    </label>
+    <input
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value="test@test.com" />
+  </div>
+  <div
+    className="form-section">
+    <label>
+      Password
+    </label>
+    <input
+      name="password"
+      onChange={[Function]}
+      type="password"
+      value="Pa$$word!" />
+  </div>
+  <ul
+    className="form-errors">
+    <li>
+      error one
+    </li>
+    <li>
+      error two
+    </li>
+  </ul>
+  <input
+    className="btn "
+    disabled={2}
+    type="submit"
+    value="Create Account" />
+</form>
+`;
+
+exports[`<CreateAccountForm /> should render with no errors 1`] = `
+<form
+  onSubmit={[Function]}>
+  <div
+    className="form-section">
+    <label>
+      Email Address
+    </label>
+    <input
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value="test@test.com" />
+  </div>
+  <div
+    className="form-section">
+    <label>
+      Password
+    </label>
+    <input
+      name="password"
+      onChange={[Function]}
+      type="password"
+      value="Pa$$word!" />
+  </div>
+  <ul
+    className="form-errors" />
+  <input
+    className="btn btn-default"
+    disabled={0}
+    type="submit"
+    value="Create Account" />
+</form>
+`;

@@ -1,0 +1,525 @@
+exports[`<App /> renders without crashing 1`] = `
+<div>
+  <button
+    className="btn btn-default"
+    onClick={[Function]}>
+    Create Account
+  </button>
+</div>
+`;
+
+exports[`<App /> should handle email input 1`] = `
+App {
+  "_reactInternalInstance": ShallowComponentWrapper {
+    "_calledComponentWillUnmount": false,
+    "_compositeType": 0,
+    "_context": Object {},
+    "_currentElement": <App />,
+    "_debugID": 5,
+    "_hostContainerInfo": null,
+    "_hostParent": null,
+    "_instance": [Circular],
+    "_mountOrder": 3,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": NoopInternalComponent {
+      "_currentElement": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+      "_debugID": 6,
+      "_renderedOutput": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+    },
+    "_renderedNodeType": 0,
+    "_rootNodeID": 0,
+    "_topLevelWrapper": null,
+    "_updateBatchNumber": null,
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "displayEmailErrors": [Function],
+  "handleEmail": [Function],
+  "handlePassword": [Function],
+  "handleSubmit": [Function],
+  "hideModal": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "showModal": [Function],
+  "state": Object {
+    "email": "test@test.com",
+    "emailValidations": Object {
+      "errors": Array [],
+      "valid": true,
+    },
+    "password": "",
+    "passwordValidations": Object {
+      "errors": Array [
+        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+        "Password must be at least 8 characters",
+      ],
+      "valid": false,
+    },
+    "showCreateAccount": false,
+    "showEmailErrors": false,
+  },
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+    "validateCallback": [Function],
+  },
+}
+`;
+
+exports[`<App /> should handle password input 1`] = `
+App {
+  "_reactInternalInstance": ShallowComponentWrapper {
+    "_calledComponentWillUnmount": false,
+    "_compositeType": 0,
+    "_context": Object {},
+    "_currentElement": <App />,
+    "_debugID": 7,
+    "_hostContainerInfo": null,
+    "_hostParent": null,
+    "_instance": [Circular],
+    "_mountOrder": 4,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": NoopInternalComponent {
+      "_currentElement": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+      "_debugID": 8,
+      "_renderedOutput": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+    },
+    "_renderedNodeType": 0,
+    "_rootNodeID": 0,
+    "_topLevelWrapper": null,
+    "_updateBatchNumber": null,
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "displayEmailErrors": [Function],
+  "handleEmail": [Function],
+  "handlePassword": [Function],
+  "handleSubmit": [Function],
+  "hideModal": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "showModal": [Function],
+  "state": Object {
+    "email": "",
+    "emailValidations": Object {
+      "errors": Array [],
+      "valid": false,
+    },
+    "password": "Pa$$word!",
+    "passwordValidations": Object {
+      "errors": Array [],
+      "valid": true,
+    },
+    "showCreateAccount": false,
+    "showEmailErrors": false,
+  },
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+    "validateCallback": [Function],
+  },
+}
+`;
+
+exports[`<App /> should handle the form submit 1`] = `
+App {
+  "_reactInternalInstance": ShallowComponentWrapper {
+    "_calledComponentWillUnmount": false,
+    "_compositeType": 0,
+    "_context": Object {},
+    "_currentElement": <App />,
+    "_debugID": 11,
+    "_hostContainerInfo": null,
+    "_hostParent": null,
+    "_instance": [Circular],
+    "_mountOrder": 6,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": NoopInternalComponent {
+      "_currentElement": <div>
+        <p>
+                Successfully created user
+        </p>
+</div>,
+      "_debugID": 12,
+      "_renderedOutput": <div>
+        <p>
+                Successfully created user
+        </p>
+</div>,
+    },
+    "_renderedNodeType": 0,
+    "_rootNodeID": 0,
+    "_topLevelWrapper": null,
+    "_updateBatchNumber": null,
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "displayEmailErrors": [Function],
+  "handleEmail": [Function],
+  "handlePassword": [Function],
+  "handleSubmit": [Function],
+  "hideModal": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "showModal": [Function],
+  "state": Object {
+    "email": "",
+    "emailValidations": Object {
+      "errors": Array [],
+      "valid": false,
+    },
+    "password": "",
+    "passwordValidations": Object {
+      "errors": Array [
+        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+        "Password must be at least 8 characters",
+      ],
+      "valid": false,
+    },
+    "showCreateAccount": false,
+    "showEmailErrors": false,
+    "userCreated": true,
+  },
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+    "validateCallback": [Function],
+  },
+}
+`;
+
+exports[`<App /> should know when to display email errors 1`] = `
+App {
+  "_reactInternalInstance": ShallowComponentWrapper {
+    "_calledComponentWillUnmount": false,
+    "_compositeType": 0,
+    "_context": Object {},
+    "_currentElement": <App />,
+    "_debugID": 9,
+    "_hostContainerInfo": null,
+    "_hostParent": null,
+    "_instance": [Circular],
+    "_mountOrder": 5,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": NoopInternalComponent {
+      "_currentElement": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+      "_debugID": 10,
+      "_renderedOutput": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+    },
+    "_renderedNodeType": 0,
+    "_rootNodeID": 0,
+    "_topLevelWrapper": null,
+    "_updateBatchNumber": null,
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "displayEmailErrors": [Function],
+  "handleEmail": [Function],
+  "handlePassword": [Function],
+  "handleSubmit": [Function],
+  "hideModal": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "showModal": [Function],
+  "state": Object {
+    "email": "",
+    "emailValidations": Object {
+      "errors": Array [],
+      "valid": false,
+    },
+    "password": "",
+    "passwordValidations": Object {
+      "errors": Array [
+        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+        "Password must be at least 8 characters",
+      ],
+      "valid": false,
+    },
+    "showCreateAccount": false,
+    "showEmailErrors": true,
+  },
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+    "validateCallback": [Function],
+  },
+}
+`;
+
+exports[`<App /> should show and hide the modal 1`] = `
+App {
+  "_reactInternalInstance": ShallowComponentWrapper {
+    "_calledComponentWillUnmount": false,
+    "_compositeType": 0,
+    "_context": Object {},
+    "_currentElement": <App />,
+    "_debugID": 3,
+    "_hostContainerInfo": null,
+    "_hostParent": null,
+    "_instance": [Circular],
+    "_mountOrder": 2,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": NoopInternalComponent {
+      "_currentElement": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+        <Modal>
+                <h2>
+                        Create Account
+                </h2>
+                <Unknown
+                        closeModal={[Function]}
+                        displayEmailErrors={[Function]}
+                        email=""
+                        formErrors={
+                                Array [
+                                        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+                                        "Password must be at least 8 characters",
+                                      ]
+                        }
+                        handleEmail={[Function]}
+                        handlePassword={[Function]}
+                        handleSubmit={[Function]}
+                        password="" />
+                <button
+                        className="btn btn-default close-modal"
+                        onClick={[Function]}>
+                        Close
+                </button>
+        </Modal>
+</div>,
+      "_debugID": 4,
+      "_renderedOutput": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+        <Modal>
+                <h2>
+                        Create Account
+                </h2>
+                <Unknown
+                        closeModal={[Function]}
+                        displayEmailErrors={[Function]}
+                        email=""
+                        formErrors={
+                                Array [
+                                        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+                                        "Password must be at least 8 characters",
+                                      ]
+                        }
+                        handleEmail={[Function]}
+                        handlePassword={[Function]}
+                        handleSubmit={[Function]}
+                        password="" />
+                <button
+                        className="btn btn-default close-modal"
+                        onClick={[Function]}>
+                        Close
+                </button>
+        </Modal>
+</div>,
+    },
+    "_renderedNodeType": 0,
+    "_rootNodeID": 0,
+    "_topLevelWrapper": null,
+    "_updateBatchNumber": null,
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "displayEmailErrors": [Function],
+  "handleEmail": [Function],
+  "handlePassword": [Function],
+  "handleSubmit": [Function],
+  "hideModal": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "showModal": [Function],
+  "state": Object {
+    "email": "",
+    "emailValidations": Object {
+      "errors": Array [],
+      "valid": false,
+    },
+    "password": "",
+    "passwordValidations": Object {
+      "errors": Array [
+        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+        "Password must be at least 8 characters",
+      ],
+      "valid": false,
+    },
+    "showCreateAccount": true,
+    "showEmailErrors": false,
+  },
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+    "validateCallback": [Function],
+  },
+}
+`;
+
+exports[`<App /> should show and hide the modal 2`] = `
+App {
+  "_reactInternalInstance": ShallowComponentWrapper {
+    "_calledComponentWillUnmount": false,
+    "_compositeType": 0,
+    "_context": Object {},
+    "_currentElement": <App />,
+    "_debugID": 3,
+    "_hostContainerInfo": null,
+    "_hostParent": null,
+    "_instance": [Circular],
+    "_mountOrder": 2,
+    "_pendingCallbacks": null,
+    "_pendingElement": null,
+    "_pendingForceUpdate": false,
+    "_pendingReplaceState": false,
+    "_pendingStateQueue": null,
+    "_renderedComponent": NoopInternalComponent {
+      "_currentElement": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+      "_debugID": 4,
+      "_renderedOutput": <div>
+        <button
+                className="btn btn-default"
+                onClick={[Function]}>
+                Create Account
+        </button>
+</div>,
+    },
+    "_renderedNodeType": 0,
+    "_rootNodeID": 0,
+    "_topLevelWrapper": null,
+    "_updateBatchNumber": null,
+    "_warnedAboutRefsInRender": false,
+  },
+  "context": Object {},
+  "displayEmailErrors": [Function],
+  "handleEmail": [Function],
+  "handlePassword": [Function],
+  "handleSubmit": [Function],
+  "hideModal": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "showModal": [Function],
+  "state": Object {
+    "email": "",
+    "emailValidations": Object {
+      "errors": Array [],
+      "valid": false,
+    },
+    "password": "",
+    "passwordValidations": Object {
+      "errors": Array [
+        "Password must contain one of the following symbols: !#$%&\'*+-/=?^_\`{|}~",
+        "Password must be at least 8 characters",
+      ],
+      "valid": false,
+    },
+    "showCreateAccount": false,
+    "showEmailErrors": false,
+  },
+  "updater": Object {
+    "enqueueCallback": [Function],
+    "enqueueCallbackInternal": [Function],
+    "enqueueElementInternal": [Function],
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+    "validateCallback": [Function],
+  },
+}
+`;
